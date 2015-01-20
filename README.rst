@@ -25,11 +25,6 @@ JBoss API client -- Short description.
     :target: https://www.gratipay.com/klen/
     :alt: Donate
 
-.. _documentation:
-
-**Docs are available at https://jboss.readthedocs.org/. Pull requests
-with documentation enhancements and/or fixes are awesome and most welcome.**
-
 .. _contents:
 
 .. contents::
