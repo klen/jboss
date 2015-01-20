@@ -11,7 +11,7 @@ import requests as rs
 import requests_cache as rc
 
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __project__ = "jboss"
 __author__ = "Kirill Klenov <horneds@gmail.com>"
 __license__ = "MIT"
