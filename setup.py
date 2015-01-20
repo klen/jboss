@@ -11,7 +11,7 @@ def _read(fname):
     except IOError:
         return ''
 
-_meta = _read('jboss/__init__.py')
+_meta = _read('jboss.py')
 _license = re.search(r'^__license__\s*=\s*"(.*)"', _meta, re.M).group(1)
 _project = re.search(r'^__project__\s*=\s*"(.*)"', _meta, re.M).group(1)
 _version = re.search(r'^__version__\s*=\s*"(.*)"', _meta, re.M).group(1)
