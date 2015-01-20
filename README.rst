@@ -55,6 +55,14 @@ Installation
 Usage
 =====
 
+::
+    from jboss import APIClient
+
+    client = APIClient()
+    response = client.api.runtime['test:dev:1.0'].process['process-name'].start.post()
+    response = client.api.task.query(processInstanceId=response.json['id'])
+
+
 .. _bugtracker:
 
 Bug tracker
