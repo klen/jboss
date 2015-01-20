@@ -47,6 +47,6 @@ setup(
         'Topic :: Utilities',
     ],
 
-    py_modules=['ticketscloud'],
+    py_modules=['jboss'],
     install_requires=install_requires,
 )
