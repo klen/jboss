@@ -51,6 +51,7 @@ Usage
 =====
 
 ::
+
     from jboss import APIClient
 
     client = APIClient()
